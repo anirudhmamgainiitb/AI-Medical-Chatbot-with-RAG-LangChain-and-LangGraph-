@@ -1,53 +1,39 @@
-\documentclass[11pt]{article}
-\usepackage[a4paper,margin=1in]{geometry}
-\usepackage{enumitem}
-\usepackage{hyperref}
-\usepackage{xcolor}
+# 🩺 AI Medical Chatbot with RAG, LangChain & LangGraph  
 
-\hypersetup{
-    colorlinks=true,
-    linkcolor=blue,
-    urlcolor=blue
-}
+An intelligent **Medical Chatbot** that leverages **Retrieval-Augmented Generation (RAG)** with **LangChain** and **LangGraph** to deliver **accurate, context-aware health query responses**. The system integrates **HuggingFace embeddings**, **ChromaDB**, and **Groq LLaMA 3**, deployed with **Streamlit** for a seamless user experience.  
 
-\begin{document}
+---
 
-\section*{AI Medical Chatbot with RAG, LangChain \& LangGraph}
+## 🚀 Features  
+- ✅ Context-aware responses using RAG for reliable medical information  
+- ✅ Efficient retrieval with HuggingFace embeddings & ChromaDB, improving precision by **15%**  
+- ✅ Real-time performance with Groq LLaMA 3, achieving **<2s query response time**  
+- ✅ Persistent chat history via Streamlit for conversational flow  
+- ✅ Modular and scalable RAG pipeline with LangChain & LangGraph  
 
-An intelligent \textbf{Medical Chatbot} that leverages \textbf{Retrieval-Augmented Generation (RAG)} with \textbf{LangChain} 
-and \textbf{LangGraph} to deliver accurate, context-aware health query responses. 
-The system integrates \textbf{HuggingFace embeddings}, \textbf{ChromaDB}, and \textbf{Groq LLaMA 3}, 
-deployed with \textbf{Streamlit} for a seamless user experience.  
+---
 
-\subsection*{Features}
-\begin{itemize}[leftmargin=*]
-    \item Context-aware responses using RAG for reliable medical information.
-    \item Efficient retrieval with HuggingFace embeddings \& ChromaDB, improving precision by \textbf{15\%}.
-    \item Real-time performance with Groq LLaMA 3, achieving $<$2s query response time.
-    \item Persistent chat history via Streamlit for conversational flow.
-    \item Modular and scalable RAG pipeline with LangChain \& LangGraph.
-\end{itemize}
+## 🏗️ Tech Stack  
+- **LLM:** Groq LLaMA 3  
+- **Frameworks:** LangChain, LangGraph  
+- **Database:** ChromaDB (vector store)  
+- **Embeddings:** HuggingFace Transformers  
+- **Frontend:** Streamlit  
+- **Other Tools:** Python, FastAPI (optional)  
 
-\subsection*{Tech Stack}
-\begin{itemize}[leftmargin=*]
-    \item \textbf{LLM:} Groq LLaMA 3
-    \item \textbf{Frameworks:} LangChain, LangGraph
-    \item \textbf{Database:} ChromaDB (vector store)
-    \item \textbf{Embeddings:} HuggingFace Transformers
-    \item \textbf{Frontend:} Streamlit
-    \item \textbf{Other Tools:} Python, FastAPI (optional)
-\end{itemize}
+---
 
-\subsection*{Project Highlights}
-\begin{itemize}[leftmargin=*]
-    \item Built a medical chatbot using RAG with LangGraph \& LangChain for reliable health query answering.
-    \item Enhanced retrieval accuracy by \textbf{15\%} with HuggingFace embeddings \& ChromaDB over keyword search.
-    \item Achieved \textbf{$<$2 sec response time} via Groq LLaMA 3 integration for near real-time interaction.
-    \item Deployed with Streamlit UI, supporting persistent conversations.
-\end{itemize}
+## 📊 Project Highlights  
+- Built a medical chatbot using **RAG** with **LangGraph + LangChain** for reliable health query answering  
+- Enhanced retrieval accuracy by **15%** with **HuggingFace embeddings** & **ChromaDB** over keyword search  
+- Achieved **<2 sec response time** via **Groq LLaMA 3** integration for near real-time interaction  
+- Deployed with **Streamlit UI**, supporting persistent conversations  
 
-\subsection*{Quick Start}
-\begin{verbatim}
+---
+
+## ⚡ Quick Start  
+
+```bash
 # Clone the repository
 git clone https://github.com/yourusername/ai-medical-chatbot.git
 cd ai-medical-chatbot
@@ -57,18 +43,3 @@ pip install -r requirements.txt
 
 # Run Streamlit app
 streamlit run app.py
-\end{verbatim}
-
-\subsection*{Future Work}
-\begin{itemize}[leftmargin=*]
-    \item Add multi-turn reasoning with memory chains.
-    \item Integrate domain-specific medical datasets (PubMed, MedQA).
-    \item Enable multilingual support for broader accessibility.
-\end{itemize}
-
-\subsection*{Contributor}
-\textbf{Your Name} -- Developer \& Researcher  
-
-\end{document}
-
-
